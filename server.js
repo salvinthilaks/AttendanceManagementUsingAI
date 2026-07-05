@@ -1,8 +1,8 @@
 const { MongoClient } = require("mongodb");
 
 let dbConnection;
-let uri = "mongodb://0.0.0.0:27017/faceRecognisation";
-// "mongodb+srv://salvinthilak:h5eQbrRBWDCGqVt@saliak.qzzbx7m.mongodb.net/faceRecognisation?retryWrites=true&w=majority";
+let uri =
+  "mongodb+srv://salvinthilaks:pmZQTGk5G2uZYsKs@data.hbozntc.mongodb.net/";
 
 module.exports = {
   connectToDb: (cb) => {
